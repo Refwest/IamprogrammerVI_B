@@ -37,14 +37,29 @@ namespace IamprogrammerVI
 
 
             Person p1 = new Person("Patryk", 18);
-            
-
-            Console.WriteLine(p1.Name);
 
 
-            changePerson(p1);
-            Console.WriteLine(p1.Name);
-            Console.WriteLine(p1.Age);
+            //Console.WriteLine(p1.Name);
+
+
+            //changePerson(p1);
+            //Console.WriteLine(p1.Name);
+            //Console.WriteLine(p1.Age);
+
+
+            //!58 Arrays of Objects
+
+            Person[] peopleArray = new Person[3];
+
+            peopleArray[0] = new Person("Franciszek", 21);
+            peopleArray[1] = new Person("Norbert", 19);
+            peopleArray[2] = p1;
+
+            for (int i = 0; i < peopleArray.Length; i++)
+            {
+                Console.WriteLine("{0} is {1} years old", peopleArray[i].Name, peopleArray[i].Age);
+             
+            }
 
         }
 
@@ -54,6 +69,9 @@ namespace IamprogrammerVI
             p1.Age = 20;
 
         }
+
+
+       
 
 
     }
