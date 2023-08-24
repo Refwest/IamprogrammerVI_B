@@ -61,6 +61,12 @@ namespace IamprogrammerVI
              
             }
 
+
+            // !59 Static Keyword
+            Console.WriteLine("There is {0} people", Person.Count);
+
+
+
         }
 
         public static void changePerson(Person p1)

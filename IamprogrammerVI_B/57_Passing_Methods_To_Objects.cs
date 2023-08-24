@@ -11,12 +11,18 @@ namespace IamprogrammerVI_B
         string name;
         int age;
 
+        //// !59 Static Keyword
+        public static int Count;        //Static
+
         public Person(string name, int age)
         {
             this.name = name;
             this.age = age;
+            Count++;    //Static
         }
 
+      
+        //// Next
         public string Name
         {
             get
