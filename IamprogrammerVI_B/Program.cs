@@ -37,6 +37,9 @@ namespace IamprogrammerVI
             double moneyBank1 = bank1.Money;
             Console.WriteLine(moneyBank1);
 
+            double moneyBank2 = (double)bank1.Money;
+            Console.WriteLine(moneyBank1);
+
 
             //!57_Passing_Methods_To_Objects
 
