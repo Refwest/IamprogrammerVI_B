@@ -59,5 +59,12 @@ namespace IamprogrammerVI_B
             return bank3;
 
         }
+
+        //implicit
+
+        public static implicit operator double(BankAccount bank1)
+        {
+            return bank1.Money;
+        }
     }
 }

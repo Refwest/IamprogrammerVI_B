@@ -32,6 +32,11 @@ namespace IamprogrammerVI
             //    Console.WriteLine(b4.Owner);
             //    Console.WriteLine(b4.Money);
 
+            // !60 implicit
+            BankAccount bank1 = new BankAccount("Zenon", 900);
+            double moneyBank1 = bank1.Money;
+            Console.WriteLine(moneyBank1);
+
 
             //!57_Passing_Methods_To_Objects
 
@@ -65,6 +70,7 @@ namespace IamprogrammerVI
             // !59 Static Keyword
             Console.WriteLine("There is {0} people", Person.Count);
 
+  
 
 
         }
